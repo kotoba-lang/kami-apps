@@ -1,0 +1,26 @@
+[package]
+name = "kami-app-bim"
+description = "BIM viewer / editor entry (bim.etzhayyim.com) — storey LOD + space highlight + IFC-aware overlay, composed on KamiApp Builder"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+kami-app = { git = "https://github.com/etzhayyim/kami-engine.git", rev = "c1cff42cee8b9087bfad67931a916c5bfe087638" }
+kami-pipelines = { git = "https://github.com/etzhayyim/kami-engine.git", rev = "c1cff42cee8b9087bfad67931a916c5bfe087638" }
+kami-bim = { git = "https://github.com/etzhayyim/kami-engine.git", rev = "c1cff42cee8b9087bfad67931a916c5bfe087638" }
+kami-render = { git = "https://github.com/etzhayyim/kami-engine.git", rev = "c1cff42cee8b9087bfad67931a916c5bfe087638" }
+glam = { workspace = true }
+log = { workspace = true }
+serde_json = { workspace = true }
+
+[target.'cfg(target_family = "wasm")'.dependencies]
+wasm-bindgen = { workspace = true }
+wasm-bindgen-futures = "0.4"
+web-sys = { version = "0.3", features = ["console", "Window"] }
+js-sys = "0.3"
+console_error_panic_hook = "0.1"
+console_log = "1"

@@ -1,0 +1,30 @@
+[package]
+name = "kami-app-maps3d"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+kami-app        = { git = "https://github.com/etzhayyim/kami-engine.git", rev = "c1cff42cee8b9087bfad67931a916c5bfe087638" }
+kami-pipelines  = { git = "https://github.com/etzhayyim/kami-engine.git", rev = "c1cff42cee8b9087bfad67931a916c5bfe087638" }
+kami-render     = { git = "https://github.com/etzhayyim/kami-engine.git", rev = "c1cff42cee8b9087bfad67931a916c5bfe087638" }
+kami-terrain    = { git = "https://github.com/etzhayyim/kami-engine.git", rev = "c1cff42cee8b9087bfad67931a916c5bfe087638" }
+kami-vegetation = { git = "https://github.com/etzhayyim/kami-engine.git", rev = "c1cff42cee8b9087bfad67931a916c5bfe087638" }
+glam           = { workspace = true }
+bytemuck       = { workspace = true }
+hecs           = { workspace = true }
+log            = { workspace = true }
+serde          = { workspace = true }
+serde_json     = { workspace = true }
+gltf           = { version = "1.4", default-features = false, features = ["import", "utils", "names"] }
+wgpu = "24"
+
+[target.'cfg(target_family = "wasm")'.dependencies]
+wasm-bindgen         = { workspace = true }
+wasm-bindgen-futures = "0.4"
+web-sys              = { version = "0.3", features = ["console"] }
+console_error_panic_hook = "0.1"
+console_log              = "1"

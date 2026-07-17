@@ -1,0 +1,31 @@
+# kami-apps — etzhayyim repo-specific (L3) *.etzhayyim.com product apps.
+#
+# Per ADR-2606011500: the robotics/sim apps (giemon, shibuya, tatekata,
+# sarutahiko, funadaiku, …) are maintained canonically IN the kami-engine
+# submodule (etzhayyim/kami-engine); this monorepo workspace holds the
+# etzhayyim product apps (bim/cad/live/maps3d/animeka-timeline). All crates
+# path-depend on the L2 engine + domain-lib crates under ../kami-engine/.
+[workspace]
+resolver = "2"
+members = [
+    "kami-app-bim",
+    "kami-app-cad",
+    "kami-app-live",
+    "kami-app-maps3d",
+    "kami-app-animeka-timeline",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+# Mirror of the kami-engine workspace deps the apps inherit (keep versions in sync).
+[workspace.dependencies]
+glam = { version = "0.33", features = ["bytemuck", "serde"] }
+log = "0.4"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+wasm-bindgen = "0.2"
+bytemuck = { version = "1", features = ["derive"] }
+hecs = "0.10"
