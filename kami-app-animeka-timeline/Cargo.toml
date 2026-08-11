@@ -8,8 +8,8 @@ license.workspace = true
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-kami-app       = { git = "https://github.com/etzhayyim/kami-engine.git", rev = "c1cff42cee8b9087bfad67931a916c5bfe087638" }
-kami-render    = { git = "https://github.com/etzhayyim/kami-engine.git", rev = "c1cff42cee8b9087bfad67931a916c5bfe087638" }
+kami-app       = { git = "https://github.com/kotoba-lang/kami-engine.git", rev = "c1cff42cee8b9087bfad67931a916c5bfe087638" }
+kami-render    = { git = "https://github.com/kotoba-lang/kami-engine.git", rev = "c1cff42cee8b9087bfad67931a916c5bfe087638" }
 glam           = { workspace = true }
 bytemuck       = { workspace = true }
 hecs           = { workspace = true }

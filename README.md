@@ -1,9 +1,12 @@
-# kami-apps — etzhayyim repo-specific (L3) product apps
+# kami-apps — Kami Engine reference product apps
 
-The etzhayyim **`*.etzhayyim.com` product apps** — per-domain WASM front-ends
-that consume the reusable engine. Per **ADR-2606011500**, the robotics/sim
+**Repository**: `kotoba-lang/kami-apps`
+
+Reference WASM front-ends that consume the reusable Kami Engine. The current
+deployments retain their historical **`*.etzhayyim.com`** service identities.
+Per **ADR-2606011500**, the robotics/sim
 apps (giemon / shibuya / tatekata / sarutahiko / funadaiku / …) are maintained
-canonically **inside the `etzhayyim/kami-engine` submodule**, while this
+canonically **inside `kotoba-lang/kami-engine`**, while this
 monorepo workspace holds the product apps.
 
 | Crate | Purpose | Site |
@@ -20,7 +23,7 @@ A **separate Cargo workspace** (`40-engine/kami-apps/`), sibling of the
 `40-engine/kami-engine/` submodule. Each crate path-depends on the **L2**
 engine + domain-lib crates under `../kami-engine/` (kami-app, kami-pipelines,
 kami-render, kami-terrain, kami-vegetation, kami-bim, kami-cad, kami-live, …).
-Run `git submodule update --init --recursive 40-engine/kami-engine` first.
+The crate manifests pin the engine packages from `kotoba-lang/kami-engine`.
 
 ## Build
 

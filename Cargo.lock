@@ -597,7 +597,7 @@ dependencies = [
 [[package]]
 name = "kami-app"
 version = "0.1.0"
-source = "git+https://github.com/etzhayyim/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
+source = "git+https://github.com/kotoba-lang/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
 dependencies = [
  "console_error_panic_hook",
  "glam",
@@ -716,7 +716,7 @@ dependencies = [
 [[package]]
 name = "kami-bim"
 version = "0.1.0"
-source = "git+https://github.com/etzhayyim/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
+source = "git+https://github.com/kotoba-lang/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
 dependencies = [
  "glam",
  "kami-cad",
@@ -732,7 +732,7 @@ dependencies = [
 [[package]]
 name = "kami-cad"
 version = "0.1.0"
-source = "git+https://github.com/etzhayyim/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
+source = "git+https://github.com/kotoba-lang/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
 dependencies = [
  "glam",
  "hecs",
@@ -750,7 +750,7 @@ dependencies = [
 [[package]]
 name = "kami-core"
 version = "0.1.0"
-source = "git+https://github.com/etzhayyim/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
+source = "git+https://github.com/kotoba-lang/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
 dependencies = [
  "bytemuck",
  "glam",
@@ -762,7 +762,7 @@ dependencies = [
 [[package]]
 name = "kami-dec"
 version = "0.1.0"
-source = "git+https://github.com/etzhayyim/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
+source = "git+https://github.com/kotoba-lang/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
 dependencies = [
  "bytemuck",
  "glam",
@@ -772,7 +772,7 @@ dependencies = [
 [[package]]
 name = "kami-eng-core"
 version = "0.1.0"
-source = "git+https://github.com/etzhayyim/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
+source = "git+https://github.com/kotoba-lang/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
 dependencies = [
  "glam",
  "hecs",
@@ -785,7 +785,7 @@ dependencies = [
 [[package]]
 name = "kami-eng-render"
 version = "0.1.0"
-source = "git+https://github.com/etzhayyim/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
+source = "git+https://github.com/kotoba-lang/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
 dependencies = [
  "bytemuck",
  "glam",
@@ -799,7 +799,7 @@ dependencies = [
 [[package]]
 name = "kami-gltf"
 version = "0.1.0"
-source = "git+https://github.com/etzhayyim/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
+source = "git+https://github.com/kotoba-lang/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
 dependencies = [
  "kami-render",
  "serde",
@@ -809,7 +809,7 @@ dependencies = [
 [[package]]
 name = "kami-live"
 version = "0.1.0"
-source = "git+https://github.com/etzhayyim/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
+source = "git+https://github.com/kotoba-lang/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
 dependencies = [
  "glam",
  "log",
@@ -820,7 +820,7 @@ dependencies = [
 [[package]]
 name = "kami-mesher"
 version = "0.1.0"
-source = "git+https://github.com/etzhayyim/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
+source = "git+https://github.com/kotoba-lang/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
 dependencies = [
  "glam",
  "kami-render",
@@ -830,7 +830,7 @@ dependencies = [
 [[package]]
 name = "kami-pipelines"
 version = "0.1.0"
-source = "git+https://github.com/etzhayyim/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
+source = "git+https://github.com/kotoba-lang/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
 dependencies = [
  "bytemuck",
  "glam",
@@ -847,7 +847,7 @@ dependencies = [
 [[package]]
 name = "kami-render"
 version = "0.1.0"
-source = "git+https://github.com/etzhayyim/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
+source = "git+https://github.com/kotoba-lang/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
 dependencies = [
  "bytemuck",
  "flate2",
@@ -861,7 +861,7 @@ dependencies = [
 [[package]]
 name = "kami-sdf"
 version = "0.1.0"
-source = "git+https://github.com/etzhayyim/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
+source = "git+https://github.com/kotoba-lang/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
 dependencies = [
  "glam",
  "kami-voxel",
@@ -872,7 +872,7 @@ dependencies = [
 [[package]]
 name = "kami-terrain"
 version = "0.1.0"
-source = "git+https://github.com/etzhayyim/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
+source = "git+https://github.com/kotoba-lang/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
 dependencies = [
  "bytemuck",
  "glam",
@@ -882,7 +882,7 @@ dependencies = [
 [[package]]
 name = "kami-text"
 version = "0.1.0"
-source = "git+https://github.com/etzhayyim/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
+source = "git+https://github.com/kotoba-lang/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
 dependencies = [
  "ab_glyph",
  "bytemuck",
@@ -897,7 +897,7 @@ dependencies = [
 [[package]]
 name = "kami-ui-gpu"
 version = "0.1.0"
-source = "git+https://github.com/etzhayyim/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
+source = "git+https://github.com/kotoba-lang/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
 dependencies = [
  "bytemuck",
  "glam",
@@ -906,7 +906,7 @@ dependencies = [
 [[package]]
 name = "kami-vegetation"
 version = "0.1.0"
-source = "git+https://github.com/etzhayyim/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
+source = "git+https://github.com/kotoba-lang/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
 dependencies = [
  "bytemuck",
  "glam",
@@ -918,7 +918,7 @@ dependencies = [
 [[package]]
 name = "kami-voxel"
 version = "0.1.0"
-source = "git+https://github.com/etzhayyim/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
+source = "git+https://github.com/kotoba-lang/kami-engine.git?rev=c1cff42cee8b9087bfad67931a916c5bfe087638#c1cff42cee8b9087bfad67931a916c5bfe087638"
 dependencies = [
  "glam",
  "serde",
