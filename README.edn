@@ -1,0 +1,6 @@
+{:repo/id "kotoba-lang/kami-apps"
+ :repo/plane :family
+ :repo/family "kami"
+ :repo/role :reference-product-apps
+ :repo/canonical-engine "kotoba-lang/kami-engine"
+ :repo/compatibility-surfaces ["*.etzhayyim.com"]}
