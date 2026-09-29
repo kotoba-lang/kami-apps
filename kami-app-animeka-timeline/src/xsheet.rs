@@ -218,7 +218,7 @@ impl RenderPipeline for XSheetPipeline {
                 view,
                 resolve_target: None,
                 ops: wgpu::Operations {
-                    // Nintendo cream background (40-engine/kami-engine/CLAUDE.md UI/UX).
+                    // Nintendo cream background (40-engine/kami-engine/AGENTS.md UI/UX).
                     load: wgpu::LoadOp::Clear(wgpu::Color { r: 0.941, g: 0.917, b: 0.839, a: 1.0 }),
                     store: wgpu::StoreOp::Store,
                 },
